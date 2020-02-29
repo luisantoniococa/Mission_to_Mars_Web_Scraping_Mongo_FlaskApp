@@ -28,4 +28,6 @@ def scrape_info():
         time.sleep(5)
         browser.back()
     browser.quit()
-    
+      
+
+      
