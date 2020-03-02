@@ -3,7 +3,7 @@ from splinter import Browser
 from bs4 import BeautifulSoup as bs
 import time
 
-def scrape_info():
+def scrape_():
 
     states_csv = pd.read_csv("../Population_metrics_by_state_D3_visualizations/assets/data/data.csv")
 
