@@ -11,7 +11,6 @@ def scrape_info():
 
     states_values = states_csv["state"]
     
-
     url = 'https://geology.com/world/the-united-states-of-america-satellite-image.shtml'
     executable_path = {'executable_path': 'chromedriver.exe'}
     browser = Browser('chrome', **executable_path, headless=False)
