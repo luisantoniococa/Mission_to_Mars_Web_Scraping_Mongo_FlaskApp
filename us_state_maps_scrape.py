@@ -9,6 +9,8 @@ def scrape_info():
 
     states_csv = pd.read_csv("../Population_metrics_by_state_D3_visualizations/assets/data/data.csv")
 
+
+
     states_values = states_csv["state"]
     
     url = 'https://geology.com/world/the-united-states-of-america-satellite-image.shtml'
